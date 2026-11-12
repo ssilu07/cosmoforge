@@ -1,0 +1,27 @@
+{
+    "name": "CosmoForge.Tests",
+    "rootNamespace": "CosmoForge.Tests",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "CosmoForge.Runtime",
+        "Unity.Mathematics",
+        "Unity.Collections",
+        "Unity.Burst"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
